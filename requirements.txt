@@ -1,0 +1,7 @@
+torch
+torchvision
+google-generativeai
+streamlit
+pillow
+numpy
+google-genai
