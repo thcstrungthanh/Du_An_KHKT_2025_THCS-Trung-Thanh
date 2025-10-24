@@ -113,7 +113,7 @@ def get_image_hash(image):
 # ==================== LỚP HỖ TRỢ GEMINI ====================
 class GeminiHelper:
     def __init__(self, client):
-        self.chat = client.chats.create(model="gemini-2.5-flash")
+        self.chat = client.chats.create(model="gemini-2.5-flash-lite")
 
     def consult_treatment(self, query: str):
         system_prompt = (
