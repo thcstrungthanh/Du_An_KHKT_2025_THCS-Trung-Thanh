@@ -477,7 +477,7 @@ def main():
             AI PHÁC THẢO ĐIỀU TRỊ
         </h3>
         ''', unsafe_allow_html=True)
-        st.markdown(f'<div class="chat-message chat-assistant">Xin chào tôi là trợ lý ảo do nhóm HS ... tạo ra!</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="chat-message chat-assistant">Xin chào tôi là trợ lý ảo do nhóm học sinh Trường THCS Trung Thành – Tuyên Quang tạo ra!</div>', unsafe_allow_html=True)
         st.markdown(f'<div class="chat-message chat-assistant">Tôi có thể đồng hành với bạn để hướng dẫn bạn điều trị các bệnh trên cây mía.</div>', unsafe_allow_html=True)
 
         if gemini:
